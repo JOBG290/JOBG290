@@ -1,0 +1,76 @@
+<meta charset="utf-8">
+<html lang="ko" dir="ltr">
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.titlecolumnL {
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 50px; 
+}
+.titlecolumnR {
+  float: right;
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<h2><div class="row">
+    <div class="titlecolumnL">
+      <h1 style="line-height: 0%; color:red; font-size:60;">Stanford Performing Arts</h1>
+    </div>
+    <div class="titlecolumnR">
+      <p style="line-height: 0%; text-align: right; color:red">Autumn 2012</p>
+      <p style="line-height: 0%; text-align: right; color:red">Edition</p>
+      <p></p>
+    </div>
+  </div>
+</h2>
+
+<div class="row">
+  <div class="column">
+    <h2>Bing Concert Hall</h2>
+    <img src=".\binghall_banner.jpg" alt="bing concert hall" width="250" height="150" align="left"><p>The Bing Concert Hall at Stanford will play avital role on campus and in the local community.
+      The hall's exceptional acoustics and state-of-the-art technical capabilities will showcase the world's finest performers.
+    </p> 
+    <p>The hall is scheduled to open early in 2013. The concert hall will have 844 seats in an intimate
+        vineyard-style configuration, with terraced sections wrapping all the way around the stage.
+    </p>  
+    </div>
+  <div class="column">
+    <h2>Calender</h2>
+    <hr align="left" size="1px" width="300px">Harmony for Humanity:Daniel pearl <br>World Music Concert</br>
+    </hr>
+    <hr align="left" size="1px" width="300px">Sundays with the St. Lawrence String <br>Quartet</br>
+    </hr>
+    <hr align="left" size="1px" width="300px">Merce Cunningham Dance Company
+    </hr>
+    <hr align="left" size="1px" width="300px">Juilliard String Quartet
+    </hr> 
+  </div>
+</div>
+
+</body>
+</html>
