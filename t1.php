@@ -1,11 +1,3 @@
-<meta charset="utf-8">
-<html lang="ko" dir="ltr">
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-
 
 <?php
 
@@ -13,5 +5,3 @@ echo "삼각형의 면적".':'.$_POST["a"].'X'.$_POST["b"].'/2'."=".$_POST["a"] 
 ?> 
 
 
-</body>
-</html>
